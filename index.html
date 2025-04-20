@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth m-0 p-0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>HOSPITAL</title>
+</head>
+<body class=" bg-slate-100 ">
+ <div class="text-black border-b  p-2 max-sm:hidden">
+    <ul class="flex space-x-6 justify-evenly items-center">
+        <li class="flex items-center"> Care <i class='bx bxs-leaf' ></i> </li>
+        <li class="flex items-center"><i class='bx bxs-phone'></i> +1(212)305-2400</li>
+        <li>Mon-Fri [9Am - 12 Pm] , [2Pm - 8Pm]</li>
+        <li><a href="mailto:care@gmail.com" class="flex items-center"><i class='bx bx-envelope'></i>Care@gmail.com</a></li>
+    </ul>
+ </div> 
+  <header class="text-white z-50 bg-sky-400 shadow-2xl opacity-95 sticky top-0 w-full">
+    <div class="container mx-auto flex flex-wrap items-center flex-col md:flex-row justify-between p-6">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="#home">
+            <span class="ml-3 text-xl tracking-widest"> CARE </span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" href="#home">Home</a>
+            <a class="mr-5 hover:text-gray-900" href="#about">About</a>
+            <a class="mr-5 hover:text-gray-900" href="#doctors">Doctors</a>
+            <a class="mr-5 hover:text-gray-900" href="medicine.html">Medicine</a>
+            <a class="mr-5 hover:text-gray-900" href="#contact">Contact</a>
+        </nav>
+    </div>
+  </header>
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Orbitron:wght@400..900&display=swap');
+    header div a span{
+        font-family: "Orbitron";
+    }
+
+    .home-content {
+        margin-left: 0;
+        font-family: "Edu AU VIC WA NT Hand",sans-serif;  
+    }
+
+    .home-content h1{
+        font-family: 'Orbitron',Arial, Helvetica, sans-serif;
+        font-size: 4rem;
+    }
+    .logo {
+        font-family: 'Orbitron',Arial, Helvetica, sans-serif;
+    }
+    .home-content h3{
+        text-shadow: -4px 4px 13px rgba(0,0,0,0.55);
+    }
+    .homeimg:hover{
+         filter:drop-shadow(9px 9px 13px #3c72c8);
+    }
+    .btn{
+        -webkit-box-shadow: 5px 6px 9px 0px rgba(59,130,246,1);
+    -moz-box-shadow: 5px 6px 9px 0px rgba(59,130,246,1);
+    box-shadow: 1px 3px 6px 0px rgba(59,130,246,1);
+    }
+    
+  
+</style>
+  <div class="flex justify-end items-center m-3">
+    <input type="text" placeholder="Search" class="border rounded-xl p-2 focus:shadow-inner focus:outline-none shadow-slate-400 transition delay-50">
+  </div>
+  <section class="flex items-center justify-center gap-80 flex-row-reverse flex-wrap max-sm:flex-col-reverse max-sm:gap-14" id="home">
+    <div class="homeimg relative transition-all ease-in-out duration-500">
+        <img src="images/homeimg.png" alt="homeimg">
+    </div>
+    <div class="home-content">
+        <h1><span class="text-blue-500">C</span>are</h1>
+        <h3 class="tracking-widest text-4xl"> Stay safe,Stay Healthy</h3>
+        <div class="btn mt-7 rounded shadow-blue-500 border flex items-center w-fit p-3 font-sans text-blue-500 border-blue-500 text-lg hover:bg-blue-500 hover:text-white transition ease-in-out duration-500"><a href="#contact">Contact Now</a>  <i class='bx bx-chevron-right bg-blue-400 ml-2 p-1 text-lg text-white'></i></div>
+    </div>
+</section>
+<section class="text-gray-600 body-font bg-white">
+    <div class="container px-auto  mx-auto">
+      <div class="flex flex-wrap -m-4 p-4 gap-6 justify-center">
+        <div class="border-2 border-blue-400 lg:w-1/4 rounded-lg overflow-hidden shadow-xl hover:scale-105 transition ease-in-out duration-300">
+          <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-6 pb-7 text-center relative shadow-xl">
+           <h1 class="text-blue-500 text-5xl flex justify-center pb-5"><i class='bx bxs-user' ></i></h1>
+           <h2 class="text-7xl text-bold text-shadow-lg text-center pb-5">10+</h2>
+           <span class="text-gray-400">Doctors At Work</span>
+          </div>
+        </div>
+        <div class="border-2 border-blue-400 lg:w-1/4 rounded-lg overflow-hidden shadow-xl hover:scale-105 transition ease-in-out duration-300">
+          <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-6 pb-7 text-center relative shadow-xl">
+           <h1 class="text-blue-500 text-5xl flex justify-center pb-5"><i class='bx bxs-group'></i></h1>
+           <h2 class="text-7xl text-bold text-shadow-lg text-center pb-5">700+</h2>
+           <span class="text-gray-400">Happy Patients</span>
+          </div>
+        </div>
+        <div class="border-2 border-blue-400 lg:w-1/4 rounded-lg overflow-hidden shadow-xl hover:scale-105 transition ease-in-out duration-300">
+          <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-6 pb-7 text-center relative shadow-xl">
+           <h1 class="text-blue-500 text-5xl flex justify-center pb-5"><i class='bx bxs-bed' ></i></h1>
+           <h2 class="text-7xl text-bold text-shadow-lg text-center pb-5">100+</h2>
+           <span class="text-gray-400">Bed Facility</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font" id="about">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">ABOUT US
+      </h1>
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+        <div class="p-4 md:w-1/3 flex">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-4 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow pl-6">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Since 2000</h2>
+            <p class="leading-relaxed text-base"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolore nulla eius molestiae atque assumenda quisquam sapiente, corporis optio labore? Dicta quisquam obcaecati voluptate ratione tenetur cupiditate harum consectetur inventore?</p>
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-4 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+            </svg>
+          </div>
+          <div class="flex-grow pl-6">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Best Doctors</h2>
+            <p class="leading-relaxed text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ex aliquam magnam officiis sunt architecto ullam? Quasi officiis eaque beatae laudantium! Nostrum doloremque aut itaque deleniti! Est numquam voluptatibus corrupti!</p>
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-4 flex-shrink-0">
+            <i class='bx bxs-leaf  text-2xl'></i>
+          </div>
+          <div class="flex-grow pl-6">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Soothing Atmosphere</h2>
+            <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem quod, molestiae ad optio perspiciatis repellat, repellendus id illo, cumque accusamus illum alias. Sit illum architecto delectus ab cupiditate enim?</p>
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font" id="doctors">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="text-5xl font-medium title-font mb-4 text-gray-900 tracking-widest text-shadow-lg ">OUR DOCTORS</h1>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover hover:-translate-y-3 transition ease-out duration-200 object-center sm:mb-0 mb-4" src="images/doctor.jpg">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Alexander</h2>
+              <h3 class="text-gray-500 mb-3">Eye Doctor</h3>
+              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-flex items-center">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+                <div class="btn rounded shadow-blue-500 border flex items-center w-fit p-1 ml-3 font-sans text-blue-500 border-blue-500 text-lg hover:bg-blue-500 hover:text-white transition ease-in-out duration-500"><a href="#contact">Book Now</a>  <i class='bx bx-chevron-right rounded bg-blue-400 ml-2 p-1 text-lg text-white'></i></div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4 hover:-translate-y-3 transition ease-out duration-200" src="images/doctor4.jpg">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Jacob</h2>
+              <h3 class="text-gray-500 mb-3">ENT</h3>
+              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-flex items-center">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+                <div class="btn rounded shadow-blue-500 border flex items-center w-fit p-1 ml-3 font-sans text-blue-500 border-blue-500 text-lg hover:bg-blue-500 hover:text-white transition ease-in-out duration-500"><a href="#contact">Book Now</a>  <i class='bx bx-chevron-right rounded bg-blue-400 ml-2 p-1 text-lg text-white'></i></div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 hover:-translate-y-3 transition ease-out duration-200 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/doctor3.png">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Smitha</h2>
+              <h3 class="text-gray-500 mb-3">Neurologist</h3>
+              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-flex items-center">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+                <div class="btn rounded shadow-blue-500 border flex items-center w-fit p-1 ml-3 font-sans text-blue-500 border-blue-500 text-lg hover:bg-blue-500 hover:text-white transition ease-in-out duration-500"><a href="#contact">Book Now</a>  <i class='bx bx-chevron-right rounded bg-blue-400 ml-2 p-1 text-lg text-white'></i></div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 hover:-translate-y-3 transition ease-out duration-200 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/doctor2.jpg">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Varsha</h2>
+              <h3 class="text-gray-500 mb-3">Surgen</h3>
+              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-flex items-center">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+                <div class="btn rounded shadow-blue-500 border flex items-center w-fit p-1 ml-3 font-sans text-blue-500 border-blue-500 text-lg hover:bg-blue-500 hover:text-white transition ease-in-out duration-500"><a href="#contact">Book Now</a>  <i class='bx bx-chevron-right rounded bg-blue-400 ml-2 p-1 text-lg text-white'></i></div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font relative" id="contact">
+    <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.0829028156945!2d76.4500908745086!3d10.010010872863464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07dfe0ffffffff%3A0x98f87eeadc0b60b!2sSree%20Narayana%20Gurukulam%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1745059753416!5m2!1sen!2sin" style="filter:  contrast(1.2) opacity(0.3);"></iframe>
+        <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+          <div class="lg:w-1/2 px-6">
+            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+            <p class="mt-1">Care Hospital,ABC Street,CFG City,kerala,India</p>
+          </div>
+          <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+            <a class="text-indigo-500 leading-relaxed">example@email.com</a>
+            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+            <p class="leading-relaxed">123-456-7890</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 p-6">
+        <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact Us</h2>
+        <p class="leading-relaxed mb-5 text-gray-600">Care Hospital,ABC Street,India</p>
+        <div class="relative mb-4">
+          <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+          <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-blue-400 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+          <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-blue-400 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+          <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-blue-400 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+        </div>
+        <button class="text-white bg-blue-400 border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">SUBMIT</button>
+        <p class="text-xs text-gray-500 mt-3">Thanks Visit Again</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
